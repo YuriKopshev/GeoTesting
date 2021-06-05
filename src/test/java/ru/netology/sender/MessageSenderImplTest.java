@@ -53,6 +53,7 @@ public class MessageSenderImplTest {
         Assertions.assertEquals(expected, actual);
 
     }
+<<<<<<< HEAD
 
     @Test
     public void testByIpNewYork() {
@@ -138,4 +139,6 @@ public class MessageSenderImplTest {
         String actual = localized.locale(USA);
         Assertions.assertEquals(expected, actual);
     }
+=======
+>>>>>>> added test classes and delete wrong spy tests
 }
