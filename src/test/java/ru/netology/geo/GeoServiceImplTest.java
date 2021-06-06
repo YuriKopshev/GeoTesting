@@ -24,6 +24,7 @@ public class GeoServiceImplTest {
         Assertions.assertEquals(expected, actual.getCity());
     }
 
+
     @Test
     public void testByIpLocalHost() {
         LocalizationService localizationService = Mockito.mock(LocalizationServiceImpl.class);

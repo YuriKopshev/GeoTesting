@@ -19,6 +19,7 @@ public class LocalizationServiceImplTest {
     }
 
     // Mockito Spy tests
+
     @Test
     public void testLocaleRusSpy() {
         LocalizationService localizationService = Mockito.spy(LocalizationServiceImpl.class);
